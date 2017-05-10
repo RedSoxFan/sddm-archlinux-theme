@@ -2,15 +2,12 @@ Archlinux Theme for SDDM
 ------------------------
 SDDM is a Login Manager for Linux which can be themed by qml. This theme is designed for archlinux users.
 
-![Alt Screenshot](https://raw.githubusercontent.com/absturztaube/sddm-archlinux-theme/master/archlinux/screenshot.png "SDDM Archlinux Theme")
+![Alt Screenshot](https://raw.githubusercontent.com/RedSoxFan/sddm-archlinux-theme/master/archlinuxdark/screenshot.png "SDDM Archlinux Dark Theme")
 
-The Theme is available through AUR: 
-* sddm-archlinux-theme-git
-* https://aur.archlinux.org/packages/sddm-archlinux-theme-git/
-* thx bchretien for submitting and maintaining the package
+This theme has been modifed from https://github.com/absturztaube/sddm-archlinux-theme to have dark inputs and removes the border around the edges of the screen.
 
 Manual Installation
 -------------------
-* copy the folder archlinux to /usr/share/apps/sddm/themes/
-* change CurrentTheme to archlinux in /etc/sddm.conf
+* copy the folder archlinuxdark to /usr/share/sddm/themes/
+* change CurrentTheme to archlinuxdark in /etc/sddm.conf
 * enjoy

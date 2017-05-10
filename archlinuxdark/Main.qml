@@ -3,8 +3,8 @@ import SddmComponents 2.0
 
 Rectangle {
     id: container
-    width: 1600
-    height: 900
+    width: 1920
+    height: 1080
 
     TextConstants { id: textConstants }
 
@@ -106,6 +106,9 @@ Rectangle {
                     width: parent.width; height: 30
                     text: userModel.lastUser
                     font.pixelSize: 14
+                    color: "#111111"
+                    borderColor: "#080808"
+					textColor: "#CCCCCC"
 
                     KeyNavigation.backtab: rebootButton; KeyNavigation.tab: password
 
@@ -135,6 +138,9 @@ Rectangle {
                     id: password
                     width: parent.width; height: 30
                     font.pixelSize: 14
+                    color: "#111111"
+                    borderColor: "#080808"
+					textColor: "#CCCCCC"
 
                     echoMode: TextInput.Password
 
@@ -168,7 +174,12 @@ Rectangle {
                     width: parent.width; height: 30
                     font.pixelSize: 14
 
+                    color: "#111111"
+                    borderColor: "#080808"
+					textColor: "#CCCCCC"
+
                     arrowIcon: "angle-down.png"
+					arrowColor: "#111111"
 
                     model: sessionModel
                     index: sessionModel.lastIndex
